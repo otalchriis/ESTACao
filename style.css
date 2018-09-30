@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.botao{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+
+}
+
+.botao:hover{
+    cursor:pointer;
+
+}
+.secreta{
+    font-size: 40px;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+}
+.secreta1{
+    font-size: 40px;
+    color: red;
+    font-family: sans-serif;
+    display: none;
+    
+}
